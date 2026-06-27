@@ -9,7 +9,11 @@ This repository contains the matching code used in:
 
 ## Overview
 
-This script matches EU ETS installation-level compliance data to firm-level financial data from the Orbis database using a tiered matching procedure, following the methodology of Chan et al. (2013). It produces a firm-year panel dataset for use in difference-in-differences analysis.
+This script matches EU ETS installation-level compliance data to firm-level financial data from the Orbis database using a tiered matching procedure, following the methodology of Chan et al. (2013). It produces a firm-year panel dataset linking regulatory participation status to firm-level financial characteristics. 
+
+EU ETS compliance data is reported at the installation level in the EUTL, while financial data in Orbis is reported at the firm level. Since firms may operate multiple installations, a matching procedure is required to link regulatory participation to firm-level financial characteristics.
+
+While the matching logic is applicable to any firm-level financial database, the panel construction steps (Steps 9-10) use column names specific to Orbis exports and would require adjustment for other data sources.
 
 ## Matching Procedure
 
