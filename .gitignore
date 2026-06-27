@@ -216,3 +216,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data files (proprietary/large)
+datasetJ.csv
+orbis_euets_sample.csv
+operators_daily.csv
+compliance_*.csv
+matched_euets_orbis_final.csv
+matching_details_tiered.csv
