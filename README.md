@@ -5,7 +5,7 @@ Tiered matching procedure linking EU ETS participation data from the EUTL to fir
 
 This repository contains the matching code used in:
 
-**[Your Name]. "Carbon Regulation and Firm Investment: Evidence from EU ETS Phase IV." Working Paper, Durham University, 2025. [SSRN link]**
+**Lilia Audzeyeva-Mesie. "Carbon Regulation and Firm Investment: Evidence from EU ETS Phase IV." Working Paper, Durham University, 2026. [SSRN link]**
 
 ## Overview
 
