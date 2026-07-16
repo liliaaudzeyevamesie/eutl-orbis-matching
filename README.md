@@ -1,15 +1,9 @@
 # eutl-orbis-matching
-Tiered matching procedure linking EU ETS participation data from the EUTL to firm-level financial characteristics from Orbis, following Chan et al. (2013). Replication code for my working paper: "Carbon Regulation and Firm Investment: Evidence from EU ETS Phase IV".
-
-# EU ETS - ORBIS Tiered Matching Script
-
-This repository contains the matching code used in:
-
-**Lilia Audzeyeva-Mesie. "Carbon Regulation and Firm Investment: Evidence from EU ETS Phase IV." Working Paper, Durham University, 2026. [SSRN link]**
+Tiered matching procedure linking EU ETS participation data from the EUTL to firm-level financial characteristics from Orbis. Replication code for my working paper: "Carbon Regulation and Firm Investment: Evidence from EU ETS Phase IV".
 
 ## Overview
 
-This script matches EU ETS installation-level compliance data to firm-level financial data from the Orbis database using a tiered matching procedure, following the methodology of Chan et al. (2013). It produces a firm-year panel dataset linking regulatory participation status to firm-level financial characteristics. 
+This script matches EU ETS installation-level compliance data to firm-level financial data from the Orbis database using a tiered matching procedure. It produces a firm-year panel dataset linking regulatory participation status to firm-level financial characteristics. 
 
 EU ETS compliance data is reported at the installation level in the EUTL, while financial data in Orbis is reported at the firm level. Since firms may operate multiple installations, a matching procedure is required to link regulatory participation to firm-level financial characteristics.
 
@@ -61,5 +55,7 @@ Ensure all input files are in the same directory as the script before running.
 - Runtime depends on sample size; Tier 2 fuzzy matching is the most computationally intensive step
 
 ## Reference
+
+Methodology follows:
 
 Chan, H.S., Li, S. and Zhang, F. (2013). Firm competitiveness and the European Union emissions trading scheme. Energy Policy, 63, pp.1056-1064.
